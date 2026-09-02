@@ -5,39 +5,24 @@ A curated list of awesome Dart frameworks, libraries and software.
 * Learning and Reference
 	* [Tutorials and Books](#tutorials-and-books)
 	* [Examples and Exercises](#examples-and-exercises)
-	* [Awesome Lists and Collections](#awesome-lists-and-collections)
 * Language and Tooling
 	* [Compilers and Interpreters](#compilers-and-interpreters)
 	* [Build Systems](#build-systems)
 	* [Package Management](#package-management)
-	* [Linters and Formatters](#linters-and-formatters)
 	* [Debugging and Profiling](#debugging-and-profiling)
-	* [Editor and IDE Support](#editor-and-ide-support)
-	* [Version Control](#version-control)
 * Web
 	* [Web Frameworks](#web-frameworks)
-	* [HTTP and Networking Clients](#http-and-networking-clients)
-	* [API and GraphQL](#api-and-graphql)
-	* [Frontend and UI Components](#frontend-and-ui-components)
 * Data and Storage
 	* [Databases](#databases)
 	* [Database Clients and ORMs](#database-clients-and-orms)
 	* [Serialization and Formats](#serialization-and-formats)
-	* [Caching and Queues](#caching-and-queues)
 * Machine Learning and AI
 	* [LLM and Inference](#llm-and-inference)
-	* [Machine Learning Frameworks](#machine-learning-frameworks)
 	* [Computer Vision](#computer-vision)
-	* [Natural Language Processing](#natural-language-processing)
-	* [Data Science and Analytics](#data-science-and-analytics)
 * Networking and Distributed
 	* [Networking](#networking)
-	* [RPC and Messaging](#rpc-and-messaging)
-	* [Cloud and Infrastructure](#cloud-and-infrastructure)
-	* [Monitoring and Observability](#monitoring-and-observability)
 * User Interface
 	* [GUI Toolkits](#gui-toolkits)
-	* [Terminal and Console UI](#terminal-and-console-ui)
 	* [Mobile](#mobile)
 	* [Applications and End User Tools](#applications-and-end-user-tools)
 * Graphics and Media
@@ -45,25 +30,12 @@ A curated list of awesome Dart frameworks, libraries and software.
 	* [Game Development](#game-development)
 	* [Audio](#audio)
 	* [Image and Video](#image-and-video)
-* Security
-	* [Security Tools](#security-tools)
-* Concurrency and Performance
-	* [Concurrency and Parallelism](#concurrency-and-parallelism)
-	* [Performance and Optimization](#performance-and-optimization)
 * Testing and Quality
 	* [Testing](#testing)
 * Utilities
 	* [Command Line Tools](#command-line-tools)
-	* [Logging and Configuration](#logging-and-configuration)
 	* [Text Processing](#text-processing)
-	* [Files and Operating System](#files-and-operating-system)
-	* [Date and Time](#date-and-time)
 	* [General Purpose Libraries](#general-purpose-libraries)
-* Systems and Hardware
-	* [Embedded and Firmware](#embedded-and-firmware)
-* Science and Math
-	* [Mathematics](#mathematics)
-	* [Scientific Computing](#scientific-computing)
 * [Other](#other)
 
 ## Learning and Reference
@@ -313,12 +285,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [sabinbajracharya/fluttery-todo](https://github.com/sabinbajracharya/fluttery-todo) - A beautiful todo app made with Flutter
 * [abuanwar072/Meditation-App](https://github.com/abuanwar072/Meditation-App)
 
-### Awesome Lists and Collections
-
-* [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) - An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
-* [fluttergems/awesome-open-source-flutter-apps](https://github.com/fluttergems/awesome-open-source-flutter-apps) - A curated list of awesome open source Flutter apps
-* [simc/awesome-flutter-packages](https://github.com/simc/awesome-flutter-packages) - A curated list of awesome Flutter packages. *(archived)*
-
 ## Language and Tooling
 
 ### Compilers and Interpreters
@@ -355,13 +321,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [pd4d10/unpub](https://github.com/pd4d10/unpub) - Self-hosted private Dart Pub server for Enterprise
 * [pingbird/puro](https://github.com/pingbird/puro) - A powerful tool for installing and upgrading Flutter versions.
 
-### Linters and Formatters
-
-* [dart-code-checker/dart-code-metrics](https://github.com/dart-code-checker/dart-code-metrics) - Software analytics tool that helps developers analyse and improve software quality. *(archived)*
-* [dart-lang/dart_style](https://github.com/dart-lang/dart_style) - An opinionated formatter/linter for Dart code
-* [dart-archive/linter](https://github.com/dart-archive/linter) - Linter for Dart. *(archived)*
-* [VeryGoodOpenSource/very_good_analysis](https://github.com/VeryGoodOpenSource/very_good_analysis) - Lint rules for Dart and Flutter used internally at Very Good Ventures 🦄
-
 ### Debugging and Profiling
 
 * [bytedance/flutter_ume](https://github.com/bytedance/flutter_ume) - UME is an in-app debug kits platform for Flutter. Produced by Flutter Infra team of ByteDance *(archived)*
@@ -369,15 +328,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) - Sentry SDK for Dart and Flutter
 * [jhomlala/catcher](https://github.com/jhomlala/catcher) - Flutter error catching & handling plugin. Handles and reports exceptions in your app!
 * [jhomlala/alice](https://github.com/jhomlala/alice) - HTTP Inspector for Flutter. Allows checking HTTP connections with UI inspector.
-
-### Editor and IDE Support
-
-* [googlearchive/chromedeveditor](https://github.com/googlearchive/chromedeveditor) - Chrome Dev Editor is a developer tool for building apps on the Chrome platform - Chrome Apps and Web Apps, in JavaScript or Dart. (NO LONGER IN ACTIVE DEVELOPMENT) *(archived)*
-* [Norbert515/flutter_ide](https://github.com/Norbert515/flutter_ide) - A visual editor for Flutter widgets
-
-### Version Control
-
-* [google/github-issue-mover](https://github.com/google/github-issue-mover) - Making it easy to migrate issues between repos. *(archived)*
 
 ## Web
 
@@ -394,24 +344,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [lvivski/start](https://github.com/lvivski/start) - Sinatra inspired web development framework for Dart
 * [jonataslaw/get_server](https://github.com/jonataslaw/get_server) - A backend server that makes it possible to program with Flutter syntax and reuse existing code
 * [Jaguar-dart/jaguar](https://github.com/Jaguar-dart/jaguar) - Jaguar, a server framework built for speed, simplicity and extensible. ORM, Session, Authentication & Authorization, OAuth
-
-### HTTP and Networking Clients
-
-* [cfug/dio](https://github.com/cfug/dio) - A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.
-* [trevorwang/retrofit.dart](https://github.com/trevorwang/retrofit.dart) - retrofit.dart is an dio client generator using source_gen and inspired by Chopper and Retrofit.
-* [dart-lang/http](https://github.com/dart-lang/http) - A composable API for making HTTP requests in Dart.
-* [lejard-h/chopper](https://github.com/lejard-h/chopper) - Chopper is an http client generator using source_gen and inspired from Retrofit.
-
-### API and GraphQL
-
-* [zino-hofmann/graphql-flutter](https://github.com/zino-hofmann/graphql-flutter) - A GraphQL client for Flutter, bringing all the features from a modern GraphQL client to one easy to use package.
-* [gql-dart/ferry](https://github.com/gql-dart/ferry) - Stream-based strongly typed GraphQL client for Dart
-* [videah/SkyBridge](https://github.com/videah/SkyBridge) - A work in progress bridge/proxy that lets you use Mastodon apps with Bluesky
-* [comigor/artemis](https://github.com/comigor/artemis) - Build dart types from GraphQL schemas and queries *(archived)*
-
-### Frontend and UI Components
-
-* [mhmzdev/devfolio](https://github.com/mhmzdev/devfolio) - Minimalist portfolio for developers using Jaspr
 
 ## Data and Storage
 
@@ -443,10 +375,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [google/protobuf.dart](https://github.com/google/protobuf.dart) - Runtime library for Dart protobufs
 * [justkawal/excel](https://github.com/justkawal/excel) - Excel Library for Flutter and Dart - https://pub.dev/packages/excel
 
-### Caching and Queues
-
-* [Baseflow/flutter_cache_manager](https://github.com/Baseflow/flutter_cache_manager) - Generic cache manager for flutter
-
 ## Machine Learning and AI
 
 ### LLM and Inference
@@ -457,11 +385,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [DenisovAV/flutter_gemma](https://github.com/DenisovAV/flutter_gemma) - The Flutter plugin allows running the Gemma AI model locally on a device from a Flutter application.
 * [google-gemini/deprecated-generative-ai-dart](https://github.com/google-gemini/deprecated-generative-ai-dart) - This SDK is now deprecated, use the unified Firebase SDK. *(archived)*
 
-### Machine Learning Frameworks
-
-* [tensorflow/flutter-tflite](https://github.com/tensorflow/flutter-tflite)
-* [am15h/tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin) - TensorFlow Lite Flutter Plugin
-
 ### Computer Vision
 
 * [v-modal/vmodal_sdk_flutter](https://github.com/v-modal/vmodal_sdk_flutter) - V- Modal AI: Visual Video / Image Search - SDK Flutter
@@ -469,18 +392,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [brinesoftwares/Flutter-AI-Rubik-cube-Solver](https://github.com/brinesoftwares/Flutter-AI-Rubik-cube-Solver) - Flutter-Python rubiks cube solver.
 * [shaqian/flutter_realtime_detection](https://github.com/shaqian/flutter_realtime_detection) - Real-time detection demo for Flutter tflite plugin
 * [ultralytics/yolo-flutter-app](https://github.com/ultralytics/yolo-flutter-app) - Official Ultralytics YOLO Flutter plugin for real-time inference on Android and iOS across major vision tasks.
-
-### Natural Language Processing
-
-* [dlutton/flutter_tts](https://github.com/dlutton/flutter_tts) - Flutter Text to Speech package
-* [csdcorp/speech_to_text](https://github.com/csdcorp/speech_to_text) - A Flutter plugin that exposes device specific text to speech recognition capability.
-
-### Data Science and Analytics
-
-* [imaNNeo/fl_chart](https://github.com/imaNNeo/fl_chart) - FL Chart is a highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, Radar Chart and Candlestick Chart.
-* [google/charts](https://github.com/google/charts) - *(archived)*
-* [entronad/graphic](https://github.com/entronad/graphic) - A grammar of data visualization and Flutter charting library.
-* [entronad/flutter_echarts](https://github.com/entronad/flutter_echarts) - A Flutter widget to use Apache ECharts in a reactive way. *(archived)*
 
 ## Networking and Distributed
 
@@ -507,23 +418,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [edufolly/flutter_bluetooth_serial](https://github.com/edufolly/flutter_bluetooth_serial) - A basic Flutter Bluetooth Serial
 * [OpenIoTHub/OpenIoTHub](https://github.com/OpenIoTHub/OpenIoTHub) - 💖Client for remote access to your network services (behind a NAT or firewall) with p2p transport. [通过内网穿透访问远程局域网服务和设备的客户端]
 
-### RPC and Messaging
-
-* [grpc/grpc-dart](https://github.com/grpc/grpc-dart) - The Dart language implementation of gRPC.
-* [marcojakob/dart-event-bus](https://github.com/marcojakob/dart-event-bus) - An Event Bus using Dart Streams for decoupling applications
-* [shamblett/mqtt_client](https://github.com/shamblett/mqtt_client) - A server and browser based MQTT client for dart
-
-### Cloud and Infrastructure
-
-* [firebase/flutterfire](https://github.com/firebase/flutterfire) - 🔥 A collection of Firebase plugins for Flutter apps.
-* [shorebirdtech/shorebird](https://github.com/shorebirdtech/shorebird) - Code Push for Flutter and other tools for Flutter businesses.
-* [aws-amplify/amplify-flutter](https://github.com/aws-amplify/amplify-flutter) - A declarative library with an easy-to-use interface for building Flutter applications on AWS.
-* [GoogleCloudPlatform/functions-framework-dart](https://github.com/GoogleCloudPlatform/functions-framework-dart) - FaaS (Function as a service) framework for writing portable Dart functions
-
-### Monitoring and Observability
-
-* [osociety/vernet](https://github.com/osociety/vernet) - Cross platform network analysis and monitoring tool
-
 ## User Interface
 
 ### GUI Toolkits
@@ -533,10 +427,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [dahliaOS/pangolin_desktop](https://github.com/dahliaOS/pangolin_desktop) - Pangolin Desktop UI shell, designed for dahliaOS, written in Flutter.
 * [bitsdojo/bitsdojo_window](https://github.com/bitsdojo/bitsdojo_window) - A Flutter package that makes it easy to customize and work with your Flutter desktop app window.
 * [alexmercerind/flutter_acrylic](https://github.com/alexmercerind/flutter_acrylic) - Flutter library for window acrylic, mica & transparency effects.
-
-### Terminal and Console UI
-
-* [TerminalStudio/xterm.dart](https://github.com/TerminalStudio/xterm.dart) - 💻 xterm.dart is a fast and fully-featured terminal emulator for Flutter, with support for mobile and desktop platforms.
 
 ### Mobile
 
@@ -850,8 +740,8 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [fluttercandies/NeteaseCloudMusic](https://github.com/fluttercandies/NeteaseCloudMusic) - Flutter - NeteaseCloudMusic Flutter 版本的网易云音乐 *(archived)*
 * [AimesSoft/NipaPlay-Reload](https://github.com/AimesSoft/NipaPlay-Reload) - NipaPlay-Reload 是一个现代化的跨平台本地视频播放器，支持 Windows、macOS、Linux、Android 和 iOS。集成了弹幕显示、多格式字幕支持、多音频轨道切换，新番查看等功能，支持挂载Emby/Jellyfin媒体库。采用 Flutter +rust开发，提供统一的用户体验。
 * [niuhuan/daisy](https://github.com/niuhuan/daisy) - 美观易用且无广告的漫画和轻小说客户端, 同时支持MacOS，Windows，Android，iOS。(动漫之家)
-* [pd4d10/git-touch](https://github.com/pd4d10/git-touch) - An open-source app for GitHub, GitLab, Bitbucket, Gitea, and Gitee(码云), built with Flutter
 * [mithun50/openclaw-termux](https://github.com/mithun50/openclaw-termux) - Run OpenClaw AI Gateway on Android — standalone Flutter app with built-in terminal, web dashboard, and one-tap setup. Also available as a Termux CLI package.
+* [pd4d10/git-touch](https://github.com/pd4d10/git-touch) - An open-source app for GitHub, GitLab, Bitbucket, Gitea, and Gitee(码云), built with Flutter
 * [leoafarias/sidekick](https://github.com/leoafarias/sidekick) - A simple app to make Flutter development more delightful
 * [niuhuan/kobi](https://github.com/niuhuan/kobi) - 美观易用且无广告的漫画和轻小说客户端, 同时支持MacOS，Windows，Android，iOS。(拷贝漫画)
 * [mateusz-bak/openreads](https://github.com/mateusz-bak/openreads) - A mobile books tracker written in Flutter that respects your privacy.
@@ -971,8 +861,8 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [Hash-Studios/Prism](https://github.com/Hash-Studios/Prism) - Prism is an open-source Flutter wallpapers and home screen setups app for Android and iOS, with community uploads, curated collections, and AI wallpaper generation.
 * [ubuntu-flutter-community/musicpod](https://github.com/ubuntu-flutter-community/musicpod) - Music, radio, television and podcast player for Ubuntu, MacOs and maybe soon Android
 * [bravekingzhang/flutter_chat_box](https://github.com/bravekingzhang/flutter_chat_box) - Flutter开发的和ChatGPT聊天的App，全平台支持
-* [free-explorers/veshell](https://github.com/free-explorers/veshell) - Veshell is an innovative not-desktop environment for Linux made with modern technologies like Flutter and Rust.
 * [K3vinb5/unyo-app](https://github.com/K3vinb5/unyo-app) - 🐙 Anime streaming and Manga reader desktop app without ads.
+* [free-explorers/veshell](https://github.com/free-explorers/veshell) - Veshell is an innovative not-desktop environment for Linux made with modern technologies like Flutter and Rust.
 * [xausky/DockerRegisterCloud](https://github.com/xausky/DockerRegisterCloud) - 基于 Docker 仓库协议的网盘客户端，可以将目前众多的免费容器仓库服务用于网盘。
 * [KNKPA/KNKPAnime](https://github.com/KNKPA/KNKPAnime) - KNKPAnime：支持多番剧源与弹幕的看番软件。
 * [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) - A multi-platform (Flutter) application for reading your emails, with your favorite devices, using the JMAP protocol!
@@ -1022,8 +912,8 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [efortuna/memechat](https://github.com/efortuna/memechat) - a meme-based chat application
 * [Rezivure/Grid-Mobile](https://github.com/Rezivure/Grid-Mobile) - Grid: Private Location Sharing mobile app for iOS/Android. E2EE with Matrix.
 * [Fredolx/fred-tv-mobile](https://github.com/Fredolx/fred-tv-mobile) - Fred TV for Android and iOS
-* [piggyvault/piggyvault](https://github.com/piggyvault/piggyvault) - Family finance management app.
 * [iebb/mithka](https://github.com/iebb/mithka) - A Telegram client, but déjà vu
+* [piggyvault/piggyvault](https://github.com/piggyvault/piggyvault) - Family finance management app.
 * [bimsina/notes-app](https://github.com/bimsina/notes-app) - Note Taking App made with Flutter with Sqlite as database..
 * [canonical/ubuntu-desktop-installer](https://github.com/canonical/ubuntu-desktop-installer) - Ubuntu Desktop Installer *(archived)*
 * [dddevid/Musly](https://github.com/dddevid/Musly) - A beautiful Flutter music streaming client for Subsonic-compatible servers with a modern Apple Music-inspired UI.
@@ -1036,10 +926,10 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [avirias/Grey](https://github.com/avirias/Grey) - A material designed music player developed in Flutter *(archived)*
 * [Medformatik/CrossDrop](https://github.com/Medformatik/CrossDrop) - CrossDrop is a partial implementation of Google's Quick Share in Flutter for macOS, iOS and Linux. CrossDrop is based on NearDrop, a Swift implementation of Quick Share for macOS.
 * [hacan359/tonkatsu_box](https://github.com/hacan359/tonkatsu_box) - Free open-source app to organize collections of retro games, movies, TV shows & anime. Track progress, rate favorites, create visual boards, share with friends. Flutter · Windows · Android · Linux · MacOS
+* [OpenStrap/edge](https://github.com/OpenStrap/edge) - An app that makes a WHOOP band (4.0, 5, MG) useful without a subscription, and pairs with standard BLE heart-rate straps too — computes everything on your phone, no cloud required.
 * [naco-siren/mogicians-manual](https://github.com/naco-siren/mogicians-manual) - Flutter version【膜法指南】open source project
 * [akashdh11/skystream](https://github.com/akashdh11/skystream) - SkyStream is a modern, cross-platform media streaming client inspired by CloudStream. It uses a custom JavaScript runtime for plugins, allowing users to scrape and stream content from various sources on Android, iOS, Windows, macOS, and Linux from a single codebase.
 * [ente/photos-app](https://github.com/ente/photos-app) - ➡️ Moved to https://github.com/ente-io/ente *(archived)*
-* [OpenStrap/edge](https://github.com/OpenStrap/edge) - An app that makes a WHOOP band (4.0, 5, MG) useful without a subscription, and pairs with standard BLE heart-rate straps too — computes everything on your phone, no cloud required.
 * [Radiant303/SpringNote](https://github.com/Radiant303/SpringNote) - SpringNote is a note-taking tool for the lazy. Just jot things down, and AI tidies up the scattered pieces for you, making recording effortless.
 * [tsacdop/tsacdop](https://github.com/tsacdop/tsacdop) - Enjoy podcasts with Tsacdop! A podcast player built with flutter.
 * [redsolver/noteless](https://github.com/redsolver/noteless) - A Markdown-based note-taking app for mobile devices.
@@ -1047,9 +937,9 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [liftoff-app/liftoff](https://github.com/liftoff-app/liftoff) - 🐒 A mobile client for lemmy
 * [CympleTech/ESSE](https://github.com/CympleTech/ESSE) - Encrypted peer-to-peer IM for data security. Own data, own privacy. (Rust+Flutter)
 * [sail-tunnel/sail](https://github.com/sail-tunnel/sail) - A flutter demo client application for v2board.
-* [kkkunny/bilitv](https://github.com/kkkunny/bilitv) - 由flutter实现的TV版哔哩哔哩，类似于bbll和bilibilitv。
 * [doen1el/calibre-web-companion](https://github.com/doen1el/calibre-web-companion) - Unofficial companion app for calibre web (automated)
 * [ketanchoyal/Our-E-School](https://github.com/ketanchoyal/Our-E-School) - A mobile app created using Flutter Framework for School management. *(archived)*
+* [kkkunny/bilitv](https://github.com/kkkunny/bilitv) - 由flutter实现的TV版哔哩哔哩，类似于bbll和bilibilitv。
 * [konifar/droidkaigi2018-flutter](https://github.com/konifar/droidkaigi2018-flutter) - The unofficial conference app for DroidKaigi 2018 Tokyo
 * [xournalpp/xournalpp_mobile](https://github.com/xournalpp/xournalpp_mobile) - Xournal++ Mobile is an unmaintained port of Xournal++ files and features to various mobile platofrms and the web. Mirror of the Xournal++ Mobile repository on GitLab. *(archived)*
 * [Nandanrmenon/florid](https://github.com/Nandanrmenon/florid) - F-Droid Client
@@ -1059,8 +949,8 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [avdept/JellyBoxPlayer](https://github.com/avdept/JellyBoxPlayer) - The best native desktop and mobile music player for Jellyfin
 * [JustLookAtNow/pt_mate](https://github.com/JustLookAtNow/pt_mate) - 基于 Flutter（Material Design 3）开发的私有种子站点客户端，支持多种PT站点的种子浏览、搜索和下载管理。目前支持M-Team和NexusPHP类型的站点。
 * [PicGo/flutter-picgo](https://github.com/PicGo/flutter-picgo) - 🚀 A simple & beautiful mobile tool for pictures uploading built by flutter
-* [OpenListApp/OpenListApp](https://github.com/OpenListApp/OpenListApp) - Alist、OpenList GUI App for Android、 iOS、Windows、macOS、Linux with Alist、OpenList local server
 * [umr-xiaomai/kgka_Music_hl](https://github.com/umr-xiaomai/kgka_Music_hl) - Flutter 开发的酷狗音乐客户端
+* [OpenListApp/OpenListApp](https://github.com/OpenListApp/OpenListApp) - Alist、OpenList GUI App for Android、 iOS、Windows、macOS、Linux with Alist、OpenList local server
 * [khoadng/Boorusama](https://github.com/khoadng/Boorusama) - A mobile client for booru sites built with Flutter
 * [flow-mn/flow](https://github.com/flow-mn/flow) - A personal finance tracker app built with love, and Flutter
 * [JGeek00/adguard-home-manager](https://github.com/JGeek00/adguard-home-manager) - AdGuard Home client created with Flutter
@@ -1068,8 +958,8 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [varunsalian/debrify](https://github.com/varunsalian/debrify) - Your personal media hub — browse, stream, and organize media from your own services and servers, with a cinematic built-in player. Android, Android TV, iOS, Windows, macOS, and Linux.
 * [darkmoonight/Zest](https://github.com/darkmoonight/Zest) - 📝 Task management application
 * [w4mxl/V2LF](https://github.com/w4mxl/V2LF) - The v2ex client write in flutter.
-* [JideGuru/FileX](https://github.com/JideGuru/FileX) - Simple File Explorer made with Flutter(WIP) *(archived)*
 * [xiaobaimc/myune_music](https://github.com/xiaobaimc/myune_music) - 一个使用 Flutter(Dart) 的简单音乐播放器实现 / A simple music player implemented using Flutter (Dart).
+* [JideGuru/FileX](https://github.com/JideGuru/FileX) - Simple File Explorer made with Flutter(WIP) *(archived)*
 * [xiaweizi/SimplicityWeather](https://github.com/xiaweizi/SimplicityWeather) - 一款简约风格的 flutter 天气项目，提供实时、多日、24 小时、台风路径以及生活指数等服务，支持定位、删除、搜索等操作。
 * [zulip/zulip-flutter](https://github.com/zulip/zulip-flutter) - Zulip mobile apps for Android and iOS, using Flutter.
 * [Kaiteki-Fedi/Kaiteki](https://github.com/Kaiteki-Fedi/Kaiteki) - The comfy SNS client for everything, everywhere *(archived)*
@@ -1134,23 +1024,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [LeGoffMael/video_editor](https://github.com/LeGoffMael/video_editor) - A flutter package for editing video written in pure Dart with fully customizable UI. Supports crop, trim, rotation and cover selection.
 * [sbis04/video_trimmer](https://github.com/sbis04/video_trimmer) - Flutter video trimmer package
 
-## Security
-
-### Security Tools
-
-* [UndeadSec/SocialFishMobile](https://github.com/UndeadSec/SocialFishMobile) - :iphone: :fish: An app to remote control SocialFish. *(archived)*
-
-## Concurrency and Performance
-
-### Concurrency and Parallelism
-
-* [ReactiveX/rxdart](https://github.com/ReactiveX/rxdart) - The Reactive Extensions for Dart
-
-### Performance and Optimization
-
-* [fzyzcjy/flutter_smooth](https://github.com/fzyzcjy/flutter_smooth) - Achieve ~60 FPS, no matter how heavy the tree is to build/layout
-* [LianjiaTech/keframe](https://github.com/LianjiaTech/keframe) - Components that optimize Flutter fluency.（Flutter 流畅度优化的通用方案，轻松解决卡顿问题）
-
 ## Testing and Quality
 
 ### Testing
@@ -1172,11 +1045,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [jonataslaw/get_cli](https://github.com/jonataslaw/get_cli) - Official Getx CLI
 * [dart-archive/stagehand](https://github.com/dart-archive/stagehand) - Dart project generator - web apps, console apps, servers, and more. *(archived)*
 
-### Logging and Configuration
-
-* [simc/logger](https://github.com/simc/logger) - Small, easy to use and extensible logger which prints beautiful logs.
-* [Frezyx/talker](https://github.com/Frezyx/talker) - ☎️ Advanced error handler and logger for dart and flutter apps
-
 ### Text Processing
 
 * [aissat/easy_localization](https://github.com/aissat/easy_localization) - Easy and Fast internationalizing your Flutter Apps
@@ -1184,17 +1052,6 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [dart-archive/intl](https://github.com/dart-archive/intl) - Internationalization and localization support *(archived)*
 * [petitparser/dart-petitparser](https://github.com/petitparser/dart-petitparser) - Dynamic parser combinators in Dart.
 * [dart-archive/markdown](https://github.com/dart-archive/markdown) - A Dart markdown library *(archived)*
-
-### Files and Operating System
-
-* [vicajilau/flutter_file_picker](https://github.com/vicajilau/flutter_file_picker) - File picker plugin for Flutter, compatible with mobile (iOS & Android), Web, Desktop (Mac, Linux, Windows) platforms with Flutter Go support.
-* [halildurmus/win32](https://github.com/halildurmus/win32) - Call Windows APIs from Dart.
-
-### Date and Time
-
-* [andresaraujo/timeago.dart](https://github.com/andresaraujo/timeago.dart) - A library useful for creating fuzzy timestamps. (e.g. "5 minutes ago")
-* [jama5262/jiffy](https://github.com/jama5262/jiffy) - Jiffy is a Flutter (Android, IOS and Web) date time package for parsing, manipulating, querying and formatting dates
-* [jogboms/time.dart](https://github.com/jogboms/time.dart) - ⏰ Type-safe DateTime and Duration calculations, powered by extensions.
 
 ### General Purpose Libraries
 
@@ -1212,31 +1069,66 @@ A curated list of awesome Dart frameworks, libraries and software.
 * [rodydavis/plugins](https://github.com/rodydavis/plugins) - Flutter plugins created by Rody Davis
 * [ScerIO/packages.flutter](https://github.com/ScerIO/packages.flutter) - 👨‍💻 Plugins and packages for Flutter framework
 
-## Systems and Hardware
-
-### Embedded and Firmware
-
-* [dchristl/macless-haystack](https://github.com/dchristl/macless-haystack) - Create your own AirTag with OpenHaystack, but without the need to own an Apple device
-* [intel/rohd](https://github.com/intel/rohd) - The Rapid Open Hardware Development (ROHD) framework is a framework for describing and verifying hardware in the Dart programming language.
-
-## Science and Math
-
-### Mathematics
-
-* [filiph/unsure](https://github.com/filiph/unsure) - Unsure Calculator
-
-### Scientific Computing
-
-* [mjansen4857/pathplanner](https://github.com/mjansen4857/pathplanner) - A simple yet powerful path planning tool for FRC robots
-
 ## Other
 
+* [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) - An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
+* [cfug/dio](https://github.com/cfug/dio) - A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.
+* [firebase/flutterfire](https://github.com/firebase/flutterfire) - 🔥 A collection of Firebase plugins for Flutter apps.
+* [imaNNeo/fl_chart](https://github.com/imaNNeo/fl_chart) - FL Chart is a highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, Radar Chart and Candlestick Chart.
+* [ReactiveX/rxdart](https://github.com/ReactiveX/rxdart) - The Reactive Extensions for Dart
+* [zino-hofmann/graphql-flutter](https://github.com/zino-hofmann/graphql-flutter) - A GraphQL client for Flutter, bringing all the features from a modern GraphQL client to one easy to use package.
+* [fluttergems/awesome-open-source-flutter-apps](https://github.com/fluttergems/awesome-open-source-flutter-apps) - A curated list of awesome open source Flutter apps
+* [shorebirdtech/shorebird](https://github.com/shorebirdtech/shorebird) - Code Push for Flutter and other tools for Flutter businesses.
+* [googlearchive/chromedeveditor](https://github.com/googlearchive/chromedeveditor) - Chrome Dev Editor is a developer tool for building apps on the Chrome platform - Chrome Apps and Web Apps, in JavaScript or Dart. (NO LONGER IN ACTIVE DEVELOPMENT) *(archived)*
 * [flutter/agent-plugins](https://github.com/flutter/agent-plugins)
+* [google/charts](https://github.com/google/charts) - *(archived)*
+* [dchristl/macless-haystack](https://github.com/dchristl/macless-haystack) - Create your own AirTag with OpenHaystack, but without the need to own an Apple device
 * [Predidit/KazumiRules](https://github.com/Predidit/KazumiRules) - Kazumi的规则托管仓库，欢迎贡献 ^•ﻌ•^
+* [entronad/graphic](https://github.com/entronad/graphic) - A grammar of data visualization and Flutter charting library.
 * [flutter/genui](https://github.com/flutter/genui)
+* [fzyzcjy/flutter_smooth](https://github.com/fzyzcjy/flutter_smooth) - Achieve ~60 FPS, no matter how heavy the tree is to build/layout
 * [Dinesh-Sowndar/flutter_billing_app](https://github.com/Dinesh-Sowndar/flutter_billing_app)
+* [vicajilau/flutter_file_picker](https://github.com/vicajilau/flutter_file_picker) - File picker plugin for Flutter, compatible with mobile (iOS & Android), Web, Desktop (Mac, Linux, Windows) platforms with Flutter Go support.
+* [aws-amplify/amplify-flutter](https://github.com/aws-amplify/amplify-flutter) - A declarative library with an easy-to-use interface for building Flutter applications on AWS.
+* [simc/awesome-flutter-packages](https://github.com/simc/awesome-flutter-packages) - A curated list of awesome Flutter packages. *(archived)*
+* [trevorwang/retrofit.dart](https://github.com/trevorwang/retrofit.dart) - retrofit.dart is an dio client generator using source_gen and inspired by Chopper and Retrofit.
+* [Norbert515/flutter_ide](https://github.com/Norbert515/flutter_ide) - A visual editor for Flutter widgets
+* [dart-lang/http](https://github.com/dart-lang/http) - A composable API for making HTTP requests in Dart.
+* [simc/logger](https://github.com/simc/logger) - Small, easy to use and extensible logger which prints beautiful logs.
+* [LianjiaTech/keframe](https://github.com/LianjiaTech/keframe) - Components that optimize Flutter fluency.（Flutter 流畅度优化的通用方案，轻松解决卡顿问题）
+* [grpc/grpc-dart](https://github.com/grpc/grpc-dart) - The Dart language implementation of gRPC.
+* [dart-code-checker/dart-code-metrics](https://github.com/dart-code-checker/dart-code-metrics) - Software analytics tool that helps developers analyse and improve software quality. *(archived)*
+* [halildurmus/win32](https://github.com/halildurmus/win32) - Call Windows APIs from Dart.
+* [Frezyx/talker](https://github.com/Frezyx/talker) - ☎️ Advanced error handler and logger for dart and flutter apps
+* [Baseflow/flutter_cache_manager](https://github.com/Baseflow/flutter_cache_manager) - Generic cache manager for flutter
+* [marcojakob/dart-event-bus](https://github.com/marcojakob/dart-event-bus) - An Event Bus using Dart Streams for decoupling applications
+* [entronad/flutter_echarts](https://github.com/entronad/flutter_echarts) - A Flutter widget to use Apache ECharts in a reactive way. *(archived)*
+* [dlutton/flutter_tts](https://github.com/dlutton/flutter_tts) - Flutter Text to Speech package
+* [lejard-h/chopper](https://github.com/lejard-h/chopper) - Chopper is an http client generator using source_gen and inspired from Retrofit.
+* [mhmzdev/devfolio](https://github.com/mhmzdev/devfolio) - Minimalist portfolio for developers using Jaspr
+* [dart-lang/dart_style](https://github.com/dart-lang/dart_style) - An opinionated formatter/linter for Dart code
+* [andresaraujo/timeago.dart](https://github.com/andresaraujo/timeago.dart) - A library useful for creating fuzzy timestamps. (e.g. "5 minutes ago")
+* [tensorflow/flutter-tflite](https://github.com/tensorflow/flutter-tflite)
+* [TerminalStudio/xterm.dart](https://github.com/TerminalStudio/xterm.dart) - 💻 xterm.dart is a fast and fully-featured terminal emulator for Flutter, with support for mobile and desktop platforms.
+* [gql-dart/ferry](https://github.com/gql-dart/ferry) - Stream-based strongly typed GraphQL client for Dart
+* [jama5262/jiffy](https://github.com/jama5262/jiffy) - Jiffy is a Flutter (Android, IOS and Web) date time package for parsing, manipulating, querying and formatting dates
+* [dart-archive/linter](https://github.com/dart-archive/linter) - Linter for Dart. *(archived)*
+* [google/github-issue-mover](https://github.com/google/github-issue-mover) - Making it easy to migrate issues between repos. *(archived)*
 * [hekaiyou/jedi](https://github.com/hekaiyou/jedi) - 1个测试开发工程师用100天的业余时间开发的Flutter商业项目！
+* [videah/SkyBridge](https://github.com/videah/SkyBridge) - A work in progress bridge/proxy that lets you use Mastodon apps with Bluesky
 * [EaniaHuui/android_tool](https://github.com/EaniaHuui/android_tool)
+* [UndeadSec/SocialFishMobile](https://github.com/UndeadSec/SocialFishMobile) - :iphone: :fish: An app to remote control SocialFish. *(archived)*
+* [shamblett/mqtt_client](https://github.com/shamblett/mqtt_client) - A server and browser based MQTT client for dart
+* [GoogleCloudPlatform/functions-framework-dart](https://github.com/GoogleCloudPlatform/functions-framework-dart) - FaaS (Function as a service) framework for writing portable Dart functions
 * [nascab/NasCabOS](https://github.com/nascab/NasCabOS)
+* [osociety/vernet](https://github.com/osociety/vernet) - Cross platform network analysis and monitoring tool
+* [am15h/tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin) - TensorFlow Lite Flutter Plugin
 * [Wendor/teapod-stream](https://github.com/Wendor/teapod-stream)
+* [filiph/unsure](https://github.com/filiph/unsure) - Unsure Calculator
+* [jogboms/time.dart](https://github.com/jogboms/time.dart) - ⏰ Type-safe DateTime and Duration calculations, powered by extensions.
+* [comigor/artemis](https://github.com/comigor/artemis) - Build dart types from GraphQL schemas and queries *(archived)*
+* [mjansen4857/pathplanner](https://github.com/mjansen4857/pathplanner) - A simple yet powerful path planning tool for FRC robots
+* [intel/rohd](https://github.com/intel/rohd) - The Rapid Open Hardware Development (ROHD) framework is a framework for describing and verifying hardware in the Dart programming language.
 * [ayman708-UX/PlayTorrioV2](https://github.com/ayman708-UX/PlayTorrioV2)
+* [csdcorp/speech_to_text](https://github.com/csdcorp/speech_to_text) - A Flutter plugin that exposes device specific text to speech recognition capability.
+* [VeryGoodOpenSource/very_good_analysis](https://github.com/VeryGoodOpenSource/very_good_analysis) - Lint rules for Dart and Flutter used internally at Very Good Ventures 🦄
